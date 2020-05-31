@@ -6,9 +6,6 @@ my_project_folder = 'Documents/python/'
 template_readme = 'Documents/python/templates/template.md'
 template_py = 'Documents/python/templates/template.py'
 
-username = os.getenv("USERNAME")
-password = os.getenv("PASSWORD")
-token = os.getenv("TOKEN")
 
 def create_new_python_project():
 	"""
